@@ -18,8 +18,20 @@
   "contributes": {
     "commands": [
       {
-        "command": "error-extension.helloWorld",
-        "title": "Hello World"
+        "command": "error-extension.throw-exception",
+        "title": "Throw exception"
+      },
+      {
+        "command": "error-extension.throw-exception-in-timeout",
+        "title": "Throw exception from setTimeout"
+      },
+      {
+        "command": "error-extension.reject-promise",
+        "title": "Reject promise"
+      },
+      {
+        "command": "error-extension.reject-promise-in-timeout",
+        "title": "Reject promise from setTimeout"
       }
     ]
   },
